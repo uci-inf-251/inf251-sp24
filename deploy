@@ -1,0 +1,2 @@
+ng build --configuration production
+ngh --dir dist/inf251-sp24 --cname=inf251-sp24.depstein.net

@@ -1,0 +1,67 @@
+<main>
+	<h1>Calendar</h1>
+	<div *ngFor="let day of calendar">
+		<hr class="row">
+		<div class="row">
+			<div class="col-3 col-md-2">
+				<h2>{{day.date_str}}</h2>
+			</div>
+			<div class="col-9 col-md-10">
+				<div class="event" [ngClass]="event.type" *ngFor="let event of day.events">
+					<h2 *ngIf="event.type == 'class'">
+						{{event.title}}
+						<a [href]="event.slides" target="_blank" *ngIf="event.slides">(slides)</a>
+					</h2>
+					<p class="leaders" *ngIf="event.leaders">
+						<span *ngIf="event.leaders.length > 1">Discussion Leaders:</span>
+						<span *ngIf="event.leaders.length == 1">Discussion Leader:</span>
+						<span *ngFor="let leader of event.leaders; let isLast=last">
+						   {{leader}}{{isLast ? '' : ', '}}
+						</span>
+					</p>
+					<p *ngIf="event.venues">
+						Read the calls for papers for the following venues:
+					</p>
+					<ul>
+						<ng-container *ngFor="let venue of event.venues">
+							<li><a [href]="venue.link">{{venue.name}}</a> <span *ngIf="venue.notes"> ({{venue.notes}})</span></li>
+						</ng-container>
+					</ul>
+					<p *ngIf="event.type == 'class' && (!event.readings || !containsRequiredReadings(event.readings)) && !event.venues">
+						No readings assigned.
+					</p>
+					<p *ngIf="event.readings && containsRequiredReadings(event.readings)">
+						Read the following articles:
+					</p>
+					<ul>
+						<ng-container *ngFor="let reading of event.readings">
+							<li *ngIf="!reading.optional"><app-paper [paper]="reading"></app-paper></li>
+						</ng-container>
+					</ul>
+					<p *ngIf="event.readings && containsOptionalReadings(event.readings)">
+						Optional resources:
+					</p>
+					<ul>
+						<ng-container *ngFor="let reading of event.readings">
+							<li *ngIf="reading.optional"><app-paper [paper]="reading"></app-paper></li>
+						</ng-container>
+					</ul>
+					<div *ngIf="event.notes">
+						<h3>Notes</h3>
+						<p [innerHTML]="event.notes"></p>
+					</div>
+					<h2 *ngIf="event.type == 'officehours_daniel'">{{event.label}}</h2>
+					<h2 *ngIf="event.type == 'holiday' || event.type == 'absence'">{{event.title}}</h2>
+					<div class="title" *ngIf="event.anchor && (event.type == 'project' || event.type == 'due' || event.type == 'assignments')">
+						<h2>Due: <a href="/{{event.type}}#{{event.anchor}}">{{event.title}}</a></h2>
+					</div>
+					<div class="title" *ngIf="!event.anchor && event.link && (event.type == 'project' || event.type == 'due' || event.type == 'assignments')">
+						<h2>Due: <a [href]="event.link">{{event.title}}</a></h2>
+					</div>
+					<h2 *ngIf="!event.link && !event.anchor && (event.type == 'project' || event.type == 'due' || event.type == 'assignments')">Due: {{event.title}}</h2>
+					<div *ngIf="event.type == 'project' || event.type == 'due' || event.type == 'assignments'">{{event.name}}</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>
