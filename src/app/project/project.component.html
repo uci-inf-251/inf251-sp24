@@ -9,11 +9,9 @@
       <li>Replicate an existing study or technology in the space of CSCW or social computing.</li>
       <li>Execute a sufficiently interesting design problem with a CSCW or social computing technology (i.e., focusing on design without regard to research novelty).</li>
    </ul>
-   <p></p>
    <p>We expect most students will do projects in groups of three. We will consider groups of two, and very strongly discourage individuals. Working in groups is a necessary part of doing research, and is also important for the logistics of this course.</p>
    <h2>Early Feedback</h2>
-   <p>Course staff will be made available to meet and provide early feedback as desired.</p>
-   <p>Meeting is optional. You can also email to request feedback or inquire about arranging another time to meet.</p>
+   <p>Course staff will be made available to meet and provide early feedback as desired. Meeting is optional. You can also email to request feedback or inquire about arranging another time to meet.</p>
    <h2>Project Deliverables</h2>
    <p>Project deliverables are defined in terms of a <em>proposal</em>, a <em>milestone</em>, and a <em>final report</em>. These are due:</p>
    <ul>
@@ -28,33 +26,20 @@
    <h4>Document</h4>
    <p>Prepare a 1 page document addressing the following points:</p>
    <ul>
-      <li>
-         <p>What makes the project interesting? What is the problem or research question?</p>
-         <p>What is the pain point you want to solve, the new capability you want to enable, or research you want to explore?</p>
+      <li><strong>What is the problem or research question?</strong> What is the pain point you want to solve, the new capability you want to enable, or research you want to explore? Or, what makes the project interesting?
       </li>
-      <li>
-         <p>What existing understanding of the problem has been developed?</p>
-         <p>For a research proposal, this will briefly cover the most important related work in the space you are exploring.</p>
-         <p>For a design proposal, this will introduce existing solutions, why they fall short, and the potential opportunity.</p>
+      <li><strong>What existing understanding of the problem has been developed?</strong> For a research proposal, this will briefly cover the most important related work in the space you are exploring. For a design proposal, this will introduce existing solutions, why they fall short, and the potential opportunity.
       </li>
-      <li>
-         <p>What will the group plan to accomplish by the milestone? By the end of the quarter?</p>
-         <p>You will be asked to revisit these plans during the milestone and final reports.</p>
+      <li><strong>What will the group plan to accomplish by the milestone? By the end of the quarter?</strong> You will be asked to revisit these plans during the milestone and final reports.
       </li>
-      <li>
-         What might the group explicitly decide to omit?
-         <p>Progress requires compromise, as you cannot accomplish everything. Explain what aspects of the project you might choose to ignore or defer in this course. This is your opportunity to scope the project appropriately for this course.</p>
+      <li><strong>What might the group explicitly decide to omit?</strong> Progress requires compromise, as you cannot accomplish everything. Explain what aspects of the project you might choose to ignore or defer in this course. This is your opportunity to scope the project appropriately for this course.
       </li>
    </ul>
-   <h4>Presentation</h4>
-   <p>Prepare a presentation consisting of 3 to 4 slides. Each group will give a short in-class presentation the week following the proposal.</p>
-   <p>This is an opportunity for feedback from staff and classmates. Your presentation should cover the same information as the document. The primary goal is feedback, not a formal presentation. Please be appropriately candid, thoughtful, and engaged.</p>
    <h4>Submission</h4>
    <span *ngFor="let project of projects">
       <div *ngIf="project.anchor == 'proposal'">
          <p>Due {{project.dueLong}}.</p>
          <p>Submit your proposal document in PDF format: <a [href]="project.link.document">{{project.link.document}}</a></p>
-         <p>Submit your proposal presentation in PDF, PPTX, or KEY format: <a [href]="project.link.presentation">{{project.link.presentation}}</a></p>
       </div>
    </span>
    <h3 id="milestone">Milestone Report</h3>
@@ -67,9 +52,6 @@
       <li>Any areas where you could use advice or are blocked. It may help to reference a part of your appendix.</li>
    </ul>
    <p>Feel free to include any materials relevant to your progress as an appendix (e.g., does not count toward the 1 page limit). Example materials would be screenshots from a current prototype, mockups of an in-progress design, an interview or survey protocol, or bulleted notes from a literature review. You can also link to external materials better accessible outside of a document (e.g., a GitHub repository, a live interactive wireframe).</p>
-   <h4>Presentation</h4>
-   <p>Prepare a presentation consisting of 3 to 4 slides. Each group will give a short in-class presentation the week following the proposal.</p>
-   <p>This is an opportunity for feedback from staff and classmates. Your presentation should cover the same information as the document. The primary goal is feedback, not a formal presentation. Please be appropriately candid, thoughtful, and engaged.</p>
    <h4>Submission</h4>
    <span *ngFor="let project of projects">
       <div *ngIf="project.anchor == 'milestone'">
@@ -90,12 +72,12 @@
    <p>This is intended to focus on appropriately conveying what has been accomplished in the course. After this primary content, additionally reflect on:</p>
    <ul>
       <li>Opportunities or lessons regarding publication-level research in this project</li>
-      <li>Broader insights or opportunities regarding Ubiquitous Computing research</li>
+      <li>Broader insights or opportunities regarding CSCW or Social Computing research</li>
    </ul>
    <span *ngFor="let project of projects">
       <div *ngIf="project.anchor == 'finalpresentation'">
          <p>Due {{project.dueLong}}.</p>
-         <p>Submit your final presentation in PPTX, KEY, or PDF format: <a [href]="project.link">{{project.link}}</a></p>
+         <p>No submission needed. Come to class prepared to give your presentation off of a laptop or the room PC.</p>
       </div>
    </span>
    <h3 id="finalreport">Final Report</h3>
