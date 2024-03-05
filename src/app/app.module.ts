@@ -13,6 +13,7 @@ import { CalendarComponent } from './calendar/calendar.component';
 import { PaperComponent } from './paper/paper.component';
 import { AssignmentsComponent } from './assignments/assignments.component';
 import { ReadingsComponent } from './readings/readings.component';
+import { ProjectComponent } from './project/project.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ReadingsComponent } from './readings/readings.component';
     PaperComponent,
     AssignmentsComponent,
     ReadingsComponent,
-    AppComponent
+    AppComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,
