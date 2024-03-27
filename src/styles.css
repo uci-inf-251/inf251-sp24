@@ -240,23 +240,23 @@ tbd {
 }
 
 .holiday {
-	background-color: #FFF275;
+	background-color: var(--color-primary-1);
 }
 
 .project {
-	background-color: #DAEDBD;
+	background-color: var(--color-secondary-2-1);
 }
 
-.assignments {
-	background-color: #EFC7C2;
+.assignment {
+	background-color: var(--color-secondary-2-1);
 }
 
 .due {
-	background-color: #90D7FF;
+	background-color: var(--color-secondary-2-1);
 }
 
 .absence {
-	background-color: #F4B9B2;
+	background-color: var(--color-complement-1);
 	font-weight: 300;
 }
 
