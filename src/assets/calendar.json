@@ -268,9 +268,24 @@
 			"title": "No Class, Memorial Day"
 		},
 		{
+			"date": "2024-05-29",
+			"type": "class",
+			"title": "Misinformation",
+			"readings": [
+				{
+					"tbd": "tbd"
+				}
+			]
+		},
+		{
 			"date": "2024-06-03",
 			"type": "class",
-			"title": "Misinformation"
+			"title": "TBD",
+			"readings": [
+				{
+					"tbd": "tbd"
+				}
+			]
 		},
 		{
 			"date": "2024-06-05",
