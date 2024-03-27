@@ -7,7 +7,7 @@
 		{
 			"date": "2024-04-01",
 			"type": "class",
-			"title": "Introduction & Course Overview",
+			"title": "Introduction & Defining Social Media",
 			"readings": [
 				{
 					"title": "CSCW Call for Papers",
@@ -15,46 +15,77 @@
 					"date": "2024",
 					"link": "https://cscw.acm.org/2024/index.php/submit-papers/",
 					"optional": true
+				},
+				{
+					"authors": ["Joseph B. Bayer", "Penny Triệu", "Nicole B. Ellison"],
+					"title": "Social Media Elements, Ecologies, and Effects",
+					"venue": "Annual Review of Psychology",
+					"date": "2020",
+					"link": "https://www.annualreviews.org/doi/abs/10.1146/annurev-psych-010419-050944",
+					"optional": true
+				},
+				{
+					"authors": ["danah m. boyd", "Nicole B. Ellison"],
+					"title": "Social Network Sites: Definition, History, and Scholarship",
+					"venue": "Journal of Computer-Mediated Communication",
+					"date": "2007",
+					"link": "https://academic.oup.com/jcmc/article/13/1/210/4583062",
+					"optional": true
 				}
 			]
 		},
 		{
 			"date": "2024-04-03",
 			"type": "class",
-			"title": "Defining Social Media",
+			"title": "Social Spread",
 			"readings": [
 				{
-					"authors": ["Joseph B. Bayer", "Penny Triệu", "Nicole B. Ellison"],
-					"title": "Social Media Elements, Ecologies, and Effects",
-					"venue": "Annual Review of Psychology",
-					"date": "2020",
-					"link": "https://www.annualreviews.org/doi/abs/10.1146/annurev-psych-010419-050944"
+					"authors": ["Adam D. I. Kramer", "Jaime E. Gulliory", "Jeffrey T. Hancock"],
+					"title": "Experimental evidence of massive-scale emotional contagion through social networks",
+					"venue": "PNAS",
+					"date": "2014",
+					"link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4066473/"
 				},
 				{
-					"authors": ["Nicole B. Ellison", "danah boyd"],
-					"title": "Sociality through Social Network Sites",
-					"venue": "Oxford Handbook of Internet Studies",
-					"date": "2013",
-					"link": "https://academic.oup.com/edited-volume/34364/chapter-abstract/328422615"
+					"authors": ["danah boyd"],
+					"title": "Untangling research and practice: What Facebook’s “emotional contagion” study teaches us",
+					"venue": "Research Ethics",
+					"date": "2015",
+					"volume": 12,
+					"issue": 1,
+					"link": "https://journals.sagepub.com/doi/full/10.1177/1747016115583379"
+				},
+				{
+					"authors": ["Blake Hallinan", "Jed R. Brubaker", "Casey Fiesler"],
+					"title": "Unexpected expectations: Public reaction to the Facebook emotional contagion study",
+					"venue": "New Media & Society",
+					"date": "2019",
+					"volume": 22,
+					"issue": 6,
+					"link": "https://journals.sagepub.com/doi/full/10.1177/1461444819876944"
 				}
 			]
 		},
 		{
 			"date": "2024-04-08",
 			"type": "class",
-			"title": "Self-Presentation",
+			"title": "Feeds and their Algorithms",
 			"readings": [
 				{
-					"authors": ["Erving Goffman"],
-					"title": "The Presentation of Self in Everyday Life",
-					"date": "1978"
+					"authors": ["Motahhare Eslami", "Aimee Rickman", "Kristen Vaccaro", "Amirhossein Aleyasen", "Andy Vuong", "Karrie Karahalios", "Kevin Hamilton", "Christian Sandvig"],
+					"title": "\"I always assumed that I wasn't really that close to [her]\": Reasoning about Invisible Algorithms in News Feeds",
+					"date": "2015",
+					"venue": "CHI",
+					"link": "https://dl.acm.org/doi/abs/10.1145/2702123.2702556"
 				},
 				{
-					"authors": ["Xuan Zhao", "Niloufar Salehi", "Sasha Naranjit", "Sara Alwaalan", "Stephen Voida", "Dan Cosley"],
-					"title": "The many faces of facebook: experiencing social media as performance, exhibition, and personal archive",
-					"venue": "CHI",
-					"date": "2013",
-					"link": "https://dl.acm.org/doi/abs/10.1145/2470654.2470656"
+					"authors": ["Nadia Karizat", "Dan Delmonaco", "Motahhare Eslami", "Nazanin Andalibi"],
+					"title": "Algorithmic Folk Theories and Identity: How TikTok Users Co-Produce Knowledge of Identity and Engage in Algorithmic Resistance",
+					"venue": "PACM HCI",
+					"volume": 5,
+					"issue": "CSCW2",
+					"date": "2021",
+					"link": "https://dl.acm.org/doi/abs/10.1145/3476046"
 				}
 			]
 		},
@@ -68,8 +99,36 @@
 		{
 			"date": "2024-04-10",
 			"type": "class",
+			"title": "Self-Presentation",
+			"readings": [
+				{
+					"authors": ["Xuan Zhao", "Niloufar Salehi", "Sasha Naranjit", "Sara Alwaalan", "Stephen Voida", "Dan Cosley"],
+					"title": "The many faces of facebook: experiencing social media as performance, exhibition, and personal archive",
+					"venue": "CHI",
+					"date": "2013",
+					"link": "https://dl.acm.org/doi/abs/10.1145/2470654.2470656"
+				},
+				{
+					"authors": ["Sijia Xiao", "Danaë Metaxa", "Joon Sung Park", "Karrie Karahalios", "Niloufar Salehi"],
+					"title": "Random, Messy, Funny, Raw: Finstas as Intimate Reconfigurations of Social Media",
+					"venue": "CHI",
+					"date": "2020",
+					"link": "https://dl.acm.org/doi/abs/10.1145/3313831.3376424"
+				}
+			]
+		},
+		{
+			"date": "2024-04-15",
+			"type": "class",
 			"title": "Ties",
 			"readings": [
+				{
+					"authors": ["Eric Gilbert", "Karrie Karahalios"],
+					"title": "Predicting Tie Strength with Social Media",
+					"venue": "CHI",
+					"date": "2009",
+					"link": "https://dl.acm.org/doi/abs/10.1145/1518701.1518736"
+				},
 				{
 					"authors": ["Robert Kraut", "Moira Burke"],
 					"title": "Internet Use and Psychological Well-Being: Effects of Activity and Audience",
@@ -87,62 +146,74 @@
 			]
 		},
 		{
-			"date": "2024-04-15",
-			"type": "class",
-			"title": "Feeds",
-			"readings": [
-				{
-					"authors": ["Michael A. DeVito", "Darren Gergle", "Jeremy Birnholtz"],
-					"title": "\"Algorithms ruin everything\": #RIPTwitter, Folk Theories, and Resistance to Algorithmic Change in Social Media",
-					"venue": "CHI",
-					"date": "2017",
-					"link": "https://dl.acm.org/doi/abs/10.1145/3025453.3025659"
-				}
-			]
-		},
-		{
 			"date": "2024-04-17",
 			"type": "class",
 			"title": "Social Influence",
 			"readings": [
 				{
-					"authors": ["Adam D. I. Kramer", "Jaime E. Gulliory", "Jeffrey T. Hancock"],
-					"title": "Experimental evidence of massive-scale emotional contagion through social networks",
-					"venue": "PNAS",
-					"date": "2014",
-					"link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4066473/"
+					"tbd": "tbd"
 				}
 			]
 		},
 		{
 			"date": "2024-04-22",
 			"type": "class",
-			"title": "Archiving and Ephemerality"
+			"title": "Archiving and Ephemerality",
+			"readings": [
+				{
+					"tbd": "tbd"
+				}
+			]
 		},
 		{
 			"date": "2024-04-24",
 			"type": "class",
-			"title": "Livestreaming"
+			"title": "Livestreaming",
+			"readings": [
+				{
+					"tbd": "tbd"
+				}
+			]
 		},
 		{
 			"date": "2024-04-29",
 			"type": "class",
-			"title": "ONLINE Work"
+			"title": "ONLINE Work",
+			"readings": [
+				{
+					"tbd": "tbd"
+				}
+			]
 		},
 		{
 			"date": "2024-05-01",
 			"type": "class",
-			"title": "Online WORK"
+			"title": "Online WORK",
+			"readings": [
+				{
+					"tbd": "tbd"
+				}
+			]
 		},
 		{
 			"date": "2024-05-06",
 			"type": "class",
-			"title": "Content Moderation"
+			"title": "Content Moderation",
+			"readings": [
+				{
+					"tbd": "tbd"
+				}
+			]
 		},
 		{
 			"date": "2024-05-08",
 			"type": "class",
-			"title": "Content Moderation"
+			"title": "Content Moderation",
+			"readings": [
+				{
+					"tbd": "tbd"
+				}
+			]
 		},
 		{
 			"date": "2024-05-13",
@@ -164,38 +235,53 @@
 		{
 			"date": "2024-05-15",
 			"type": "class",
-			"title": "Easel.AI"
+			"title": "AI and Social Media",
+			"readings": [
+				{
+					"tbd": "tbd"
+				}
+			]
 		},
 		{
 			"date": "2024-05-20",
 			"type": "class",
-			"title": "Health Forums"
+			"title": "Health Forums",
+			"readings": [
+				{
+					"tbd": "tbd"
+				}
+			]
 		},
 		{
 			"date": "2024-05-22",
 			"type": "class",
-			"title": "Wellbeing Support"
+			"title": "Wellbeing Support",
+			"readings": [
+				{
+					"tbd": "tbd"
+				}
+			]
 		},
 		{
 			"date": "2024-05-27",
+			"type": "holiday",
+			"title": "No Class, Memorial Day"
+		},
+		{
+			"date": "2024-06-03",
 			"type": "class",
 			"title": "Misinformation"
 		},
 		{
-			"date": "2024-06-03",
+			"date": "2024-06-05",
 			"type": "project",
 			"title": "Final Presentation",
 			"anchor": "finalpresentation"
 		},
 		{
-			"date": "2024-06-03",
-			"type": "class",
-			"title": "Final Presentations"
-		},
-		{
 			"date": "2024-06-05",
 			"type": "class",
-			"title": "Wrap-Up"
+			"title": "Final Presentations"
 		},
 		{
 			"date": "2024-06-10",
