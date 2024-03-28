@@ -154,20 +154,46 @@
 		{
 			"date": "2024-04-17",
 			"type": "class",
-			"title": "Social Influence",
+			"title": "Platform Capabilities",
 			"readings": [
 				{
-					"tbd": "tbd"
+					"authors": ["Mark Ackerman"],
+					"title": "The Intellectual Challenge of CSCW: The Gap Between Social Requirements and Technical Feasibility",
+					"venue": "Human-Computer Interaction",
+					"date": "2000",
+					"link": "https://www.tandfonline.com/doi/abs/10.1207/S15327051HCI1523_5"
+				},
+				{
+					"authors": ["Amy X. Zhang", "Michael S. Bernstein", "David R. Karger", "Mark S. Ackerman"],
+					"title": "Form-From: A Design Space of Social Media Systems",
+					"venue": "PACM HCI",
+					"volume": 8,
+					"issue": "CSCW1",
+					"date": "2024",
+					"link": "https://arxiv.org/abs/2402.05388"
 				}
 			]
 		},
 		{
 			"date": "2024-04-22",
 			"type": "class",
-			"title": "Archiving and Ephemerality",
+			"title": "Community Norms",
 			"readings": [
 				{
-					"tbd": "tbd"
+					"authors": ["Stevie Chancellor", "Andrea Hu", "Munmun De Choudhury"],
+					"title": "Norms Matter: Contrasting Social Support Around Behavior Change in Online Weight Loss Communities",
+					"venue": "CHI",
+					"date": "2018",
+					"link": "https://dl.acm.org/doi/abs/10.1145/3173574.3174240"
+				},
+				{
+					"authors": ["Lee Taber", "Sonia Dominguez", "Steve Whittaker"],
+					"title": "Ignore the Affordances; It's the Social Norms: How Millennials and Gen-Z Think About Where to Make a Post on Social Media",
+					"venue": "PACM HCI",
+					"volume": 7,
+					"issue": "CSCW2",
+					"date": "2023",
+					"link": "https://dl.acm.org/doi/abs/10.1145/3610102"
 				}
 			]
 		},
