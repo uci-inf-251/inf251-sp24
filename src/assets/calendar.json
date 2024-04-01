@@ -32,7 +32,8 @@
 					"link": "https://academic.oup.com/jcmc/article/13/1/210/4583062",
 					"optional": true
 				}
-			]
+			],
+			"slides": "assets/slides/04_01_24-introduction.pdf"
 		},
 		{
 			"date": "2024-04-03",
