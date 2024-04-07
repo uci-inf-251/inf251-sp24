@@ -189,7 +189,15 @@
 					"title": "Norms Matter: Contrasting Social Support Around Behavior Change in Online Weight Loss Communities",
 					"venue": "CHI",
 					"date": "2018",
-					"link": "https://dl.acm.org/doi/abs/10.1145/3173574.3174240"
+					"link": "https://dl.acm.org/doi/abs/10.1145/3173574.3174240",
+					"optional": true
+				},
+				{
+					"authors": ["Justin Cheng", "Michael Bernstein", "Cristian Danescu-Niculescu-Mizil", "Jure Leskovec"],
+					"title": "Anyone Can Become a Troll: Causes of Trolling Behavior in Online Discussions",
+					"venue": "CSCW",
+					"date": "2017",
+					"link": "https://dl.acm.org/doi/abs/10.1145/2998181.2998213"
 				},
 				{
 					"authors": ["Lee Taber", "Sonia Dominguez", "Steve Whittaker"],
