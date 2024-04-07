@@ -129,6 +129,7 @@
 			"date": "2024-04-15",
 			"type": "class",
 			"title": "Ties",
+			"leaders": ["Yu Duan"],
 			"readings": [
 				{
 					"authors": ["Eric Gilbert", "Karrie Karahalios"],
@@ -157,6 +158,7 @@
 			"date": "2024-04-17",
 			"type": "class",
 			"title": "Platform Capabilities",
+			"leaders": ["Jaime Lee"],
 			"readings": [
 				{
 					"authors": ["Mark Ackerman"],
@@ -180,6 +182,7 @@
 			"date": "2024-04-22",
 			"type": "class",
 			"title": "Community Norms",
+			"leaders": ["Mehreen Masood"],
 			"readings": [
 				{
 					"authors": ["Stevie Chancellor", "Andrea Hu", "Munmun De Choudhury"],
@@ -203,6 +206,7 @@
 			"date": "2024-04-24",
 			"type": "class",
 			"title": "Livestreaming",
+			"leaders": ["Kenneth Pat"],
 			"readings": [
 				{
 					"tbd": "tbd"
@@ -213,6 +217,7 @@
 			"date": "2024-04-29",
 			"type": "class",
 			"title": "ONLINE Work",
+			"leaders": ["Seungmin Jeong"],
 			"readings": [
 				{
 					"tbd": "tbd"
@@ -223,6 +228,7 @@
 			"date": "2024-05-01",
 			"type": "class",
 			"title": "Online WORK",
+			"leaders": ["Xinru Tang"],
 			"readings": [
 				{
 					"tbd": "tbd"
@@ -233,6 +239,7 @@
 			"date": "2024-05-06",
 			"type": "class",
 			"title": "Content Moderation",
+			"leaders": ["Sohyeon Park"],
 			"readings": [
 				{
 					"tbd": "tbd"
@@ -242,7 +249,8 @@
 		{
 			"date": "2024-05-08",
 			"type": "class",
-			"title": "Content Moderation",
+			"title": "Platform Governance",
+			"leaders": ["Vitica Arnold"],
 			"readings": [
 				{
 					"tbd": "tbd"
@@ -280,6 +288,7 @@
 			"date": "2024-05-20",
 			"type": "class",
 			"title": "Health Forums",
+			"leaders": ["Di Hu"],
 			"readings": [
 				{
 					"tbd": "tbd"
@@ -290,6 +299,7 @@
 			"date": "2024-05-22",
 			"type": "class",
 			"title": "Wellbeing Support",
+			"leaders": ["Emani Dotch"],
 			"readings": [
 				{
 					"tbd": "tbd"
@@ -305,6 +315,7 @@
 			"date": "2024-05-29",
 			"type": "class",
 			"title": "Misinformation",
+			"leaders": ["Matthew Dressa"],
 			"readings": [
 				{
 					"tbd": "tbd"
