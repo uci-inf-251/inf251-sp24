@@ -95,7 +95,8 @@
 					"date": "2021",
 					"link": "https://dl.acm.org/doi/abs/10.1145/3476046"
 				}
-			]
+			],
+			"slides": "assets/slides/04_08_24-feed_algorithms.pdf"
 		},
 		{
 			"date": "2024-04-10",
