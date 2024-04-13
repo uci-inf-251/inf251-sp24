@@ -124,7 +124,8 @@
 					"date": "2020",
 					"link": "https://dl.acm.org/doi/abs/10.1145/3313831.3376424"
 				}
-			]
+			],
+			"slides": "assets/slides/04_10_24-self_presentation.pdf"
 		},
 		{
 			"date": "2024-04-15",
@@ -218,7 +219,18 @@
 			"leaders": ["Kenneth Pat"],
 			"readings": [
 				{
-					"tbd": "tbd"
+					"authors": ["William A. Hamilton", "Oliver Garretson", "Andruid Kerne"],
+					"title": "Streaming on twitch: fostering participatory communities of play within live mixed media",
+					"venue": "CHI",
+					"date": "2014",
+					"link": "https://dl.acm.org/doi/abs/10.1145/2556288.2557048"
+				},
+				{
+					"authors": ["Ava Bartolome", "Shuo Niu"],
+					"title": "A Literature Review of Video-Sharing Platform Research in HCI",
+					"venue": "CHI",
+					"date": "2023",
+					"link": "https://dl.acm.org/doi/full/10.1145/3544548.3581107"
 				}
 			]
 		},
@@ -229,7 +241,26 @@
 			"leaders": ["Seungmin Jeong"],
 			"readings": [
 				{
-					"tbd": "tbd"
+					"authors": ["Gary M. Olson", "Judith S. Olson"],
+					"title": "Distance Matters",
+					"venue": "Human–computer interaction",
+					"volume": "15",
+					"date": "2000",
+					"link": "https://www.tandfonline.com/doi/abs/10.1207/S15327051HCI1523_4"
+				},
+				{
+					"authors": ["Jonathan Grudin"],
+					"title": "Groupware and social dynamics: Eight challenges for developers",
+					"venue": "CACM",
+					"date": "1994",
+					"link": "https://dl.acm.org/doi/pdf/10.1145/175222.175230"
+				},
+				{
+					"authors": ["Jim Hollan", "Scott Stornetta"],
+					"title": "Beyond Being There",
+					"venue": "CHI",
+					"date": "1992",
+					"link": "https://dl.acm.org/doi/abs/10.1145/142750.142769"
 				}
 			]
 		},
@@ -240,7 +271,18 @@
 			"leaders": ["Xinru Tang"],
 			"readings": [
 				{
-					"tbd": "tbd"
+					"authors": ["Min Kyung Lee", "Daniel Kusbit", "Evan Metsky", "Laura Dabbish"],
+					"title": "Working with Machines: The Impact of Algorithmic and Data-Driven Management on Human Workers",
+					"venue": "CHI",
+					"date": "2015",
+					"link": "https://dl.acm.org/doi/abs/10.1145/2702123.2702548"
+				},
+				{
+					"authors": ["Angie Zhang", "Alexander Boltz", "Chun Wei Wang", "Min Kyung Lee"],
+					"title": "Algorithmic Management Reimagined For Workers and By Workers: Centering Worker Well-Being in Gig Work",
+					"venue": "CHI",
+					"date": "2022",
+					"link": "https://dl.acm.org/doi/abs/10.1145/3491102.3501866"
 				}
 			]
 		},
