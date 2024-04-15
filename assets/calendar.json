@@ -125,7 +125,7 @@
 					"link": "https://dl.acm.org/doi/abs/10.1145/3313831.3376424"
 				}
 			],
-			"slides": "assets/slides/04_10_24-self_presentation.pdf"
+			"slides": "assets/slides/04_10_24-self-presentation.pdf"
 		},
 		{
 			"date": "2024-04-15",
@@ -154,7 +154,8 @@
 					"date": "2017",
 					"link": "https://dl.acm.org/doi/abs/10.1145/3025453.3025484"
 				}
-			]
+			],
+			"slides": "assets/slides/04_15_24-ties.pdf"
 		},
 		{
 			"date": "2024-04-17",
