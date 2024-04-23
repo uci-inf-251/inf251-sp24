@@ -296,7 +296,10 @@
 			"leaders": ["Sohyeon Park", "Antriksh Ganjoo"],
 			"readings": [
 				{
-					"tbd": "tbd"
+					"authors": ["Tarleton Gillespie"],
+					"title": "Custodians of the Internet: Platforms, content moderation, and the hidden decisions that shape social media",
+					"venue": "Yale University Books",
+					"notes": "Read Chapters 4, 6, and 8."
 				}
 			]
 		},
@@ -307,7 +310,20 @@
 			"leaders": ["Vitica Arnold", "Hongzhuo Chen"],
 			"readings": [
 				{
-					"tbd": "tbd"
+					"authors": ["Niloufar Salehi", "Lilly Irani", "Michael S. Bernstein", "Ali Alkhatib", "Eva Ogbe", "Kristy Milland", "Clickhappier"],
+					"title": "We Are Dynamo: Overcoming Stalling and Friction in Collective Action for Crowd Workers",
+					"venue": "CHI",
+					"date": "2015",
+					"link": "https://journals.sagepub.com/doi/full/10.1177/20563051231207857"
+				},
+				{
+					"authors": ["Shagun Javer", "Seth Frey", "Amy X. Zhang"],
+					"title": "Decentralizing Platform Power: A Design Space of Multi-Level Governance in Online Social Platforms",
+					"venue": "Social Media + Society",
+					"volume": 9,
+					"issue": 4,
+					"date": "2023",
+					"link": "https://journals.sagepub.com/doi/full/10.1177/20563051231207857"
 				}
 			]
 		},
