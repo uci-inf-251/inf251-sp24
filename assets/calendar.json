@@ -235,7 +235,8 @@
 					"date": "2023",
 					"link": "https://dl.acm.org/doi/full/10.1145/3544548.3581107"
 				}
-			]
+			],
+			"slides": "assets/slides/04_24_24-livestreaming.pdf"
 		},
 		{
 			"date": "2024-04-29",
