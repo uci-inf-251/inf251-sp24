@@ -289,13 +289,14 @@
 					"date": "2022",
 					"link": "https://dl.acm.org/doi/abs/10.1145/3491102.3501866"
 				}
-			]
+			],
+			"slides": "assets/slides/05_01_24-online_work.pdf"
 		},
 		{
 			"date": "2024-05-06",
 			"type": "class",
 			"title": "Content Moderation",
-			"leaders": ["Sohyeon Park", "Antriksh Ganjoo"],
+			"leaders": ["Antriksh Ganjoo"],
 			"readings": [
 				{
 					"authors": ["Tarleton Gillespie"],
@@ -350,9 +351,26 @@
 			"date": "2024-05-15",
 			"type": "class",
 			"title": "AI and Social Media",
+			"leaders": ["Lidia Flores"],
 			"readings": [
 				{
-					"tbd": "tbd"
+					"authors": ["Sitong Wang", "Samia Menon", "Tao Long", "Keren Henderson", "Dingzeyu Li", "Kevin Crowston", "Mark Hansen", "Jeffrey V. Nickerson", "Lydia B. Chilton"],
+					"title": "ReelFramer: Human-AI Co-Creation for News-to-Video Translation",
+					"venue": "CHI",
+					"date": "2024",
+					"link": "https://arxiv.org/pdf/2304.09653"
+				},
+				{
+					"authors": ["Romain Dillet"],
+					"title": "With Easel, ex-Snap researchers are building the next-generation Bitmoji thanks to AI",
+					"date": "2024",
+					"link": "https://techcrunch.com/2024/04/23/with-easel-ex-snap-researchers-are-building-the-next-generation-bitmoji-thanks-to-ai/"
+				},
+				{
+					"authors": ["Easel.ai"],
+					"title": "Play with the App!",
+					"date": "2024",
+					"link": "https://apps.apple.com/us/app/easel-ai/id6448734086"
 				}
 			]
 		},
@@ -387,7 +405,7 @@
 			"date": "2024-05-29",
 			"type": "class",
 			"title": "Misinformation",
-			"leaders": ["Matthew Dressa", "Lidia Flores"],
+			"leaders": ["Matthew Dressa"],
 			"readings": [
 				{
 					"tbd": "tbd"
