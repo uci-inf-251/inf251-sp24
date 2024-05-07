@@ -381,7 +381,20 @@
 			"leaders": ["Di Hu"],
 			"readings": [
 				{
-					"tbd": "tbd"
+					"authors": ["Lena Mamykina", "Drashko Nakikj", "Noemie Elhadad"],
+					"title": "Collective Sensemaking in Online Health Forums",
+					"venue": "CHI",
+					"date": "2015",
+					"link": "https://dl.acm.org/doi/abs/10.1145/2702123.2702566"
+				},
+				{
+					"authors": ["Xinning Gui", "Yu Chen", "Yubo Kou", "Katie Pine", "Yunan Chen"],
+					"title": "Investigating Support Seeking from Peers for Pregnancy in Online Health Communities",
+					"venue": "PACM HCI",
+					"volume": 1,
+					"issue": "CSCW",
+					"date": "2017",
+					"link": "https://dl.acm.org/doi/abs/10.1145/3134685"
 				}
 			]
 		},
@@ -392,7 +405,18 @@
 			"leaders": ["Emani Dotch"],
 			"readings": [
 				{
-					"tbd": "tbd"
+					"authors": ["Mark W. Newman", "Debra Lauterbach", "Sean A. Munson", "Paul Resnick", "Margaret E. Morris"],
+					"title": "\"It's not that I don't have problems, I'm just not putting them on Facebook”: Challenges and Opportunities in Using Online Social Networks for Health\"",
+					"venue": "CSCW",
+					"date": "2011",
+					"link": "https://dl.acm.org/doi/abs/10.1145/1958824.1958876"
+				},
+				{
+					"authors": ["Chia-Fang Chung", "Elena Agapie", "Jessica Schroeder", "Sonali Mishra", "James Fogarty", "Sean A. Munson"],
+					"title": "When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating",
+					"venue": "CHI",
+					"date": "2017",
+					"link": "https://dl.acm.org/doi/abs/10.1145/3025453.3025747"
 				}
 			]
 		},
