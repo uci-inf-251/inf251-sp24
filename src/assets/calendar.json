@@ -459,7 +459,20 @@
 			"title": "The Evolution of CSCW",
 			"readings": [
 				{
-					"tbd": "tbd"
+					"authors": ["James R. Wallace", "Saba Oji", "Craig Anslow"],
+					"title": "Technologies, Methods, and Values: Changes in Empirical Research at CSCW 1990 – 2015",
+					"venue": "PACM HCI",
+					"volume": "1",
+					"issue": "CSCW",
+					"date": "2017",
+					"link": "https://dl.acm.org/doi/10.1145/3134741"
+				},
+				{
+					"authors": ["Michael S. Bernstein", "Irene Grief", "Wendy E. Mackay", "Hiroshi Ishii", "Jonathan Grudin", "Karrie Karahalios", "Meredith Ringel Morris", "Aniket Kittur", "Jaime Teevan", "Amy X. Zhang", "Niloufar Salehi"],
+					"title": "UIST+CSCW: A Celebration of Systems Research in Collaborative and Social Computing",
+					"venue": "UIST & CSCW",
+					"date": "2020",
+					"link": "https://www.youtube.com/watch?v=4oFD_VKGp78"
 				}
 			]
 		},
